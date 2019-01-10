@@ -3,7 +3,7 @@ function range(start, end, step) {
     return [];
   }
 
-  var startNumber = start;
+  let startNumber = start;
   let someArray = [];
   while (startNumber <= end) {
     someArray.push(startNumber);
